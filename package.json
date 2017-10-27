@@ -78,6 +78,11 @@
       "versions": {
         "^1.0.0": "consumeStatusBar"
       }
+    },
+    "linter-indie": {
+      "versions": {
+        "^2.0.0": "consumeLinterIndie"
+      }
     }
   },
   "deserializers": {
