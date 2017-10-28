@@ -74,14 +74,19 @@
     "language-latexsimple:grammar-used"
   ],
   "consumedServices": {
-    "status-bar": {
+    "atom-ide-busy-signal": {
       "versions": {
-        "^1.0.0": "consumeStatusBar"
+        "^0.1.0": "consumeBusySignal"
       }
     },
     "linter-indie": {
       "versions": {
         "^2.0.0": "consumeLinterIndie"
+      }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
       }
     }
   },
